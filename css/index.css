@@ -1,0 +1,135 @@
+.my-btn{
+    width: 30%;
+    height: 40px;
+    background: #4975fc;
+    box-shadow: 5px 5px 20px -10px black;
+    transition: all .5s;
+}
+.my-btn:hover{
+    color:#4975fc !important;
+    background-color: #fff;
+    border: none;
+}
+
+nav .my-nav ul{
+    line-height: 30px;
+}
+nav .my-nav ul li{
+    color: #777777;
+    font-size: 18px;
+}
+header .one h2{
+    font-size: 35px;
+    line-height: 45px;
+}
+header .one p{
+    width: 95%;
+    font-weight: 500;
+}
+header form input,
+.sub input {
+    width: 60%;
+    height: 40px;
+    border: 1px solid #777;
+    font-size: 16px;
+}
+.bg-m img{
+    width: 100%;
+}
+
+.tistis{
+    background-color: #F8F8FE;
+}
+
+.tistis .two p{
+    font-weight: 500;
+}
+.tistis .two a{
+    text-decoration: underline;
+    color: #00bc37;
+}
+
+
+.tistis .two .men{
+    background: #fff;
+    box-shadow: 5px 5px 20px -10px black;
+    width: 65%;
+}
+
+.tistis .two p{
+    font-size: 14px;
+    width: 90%;
+}
+.tistis .two .ide{
+    display: flex;
+}
+.tistis .two .ide img{
+    width: 60px;
+
+}
+.tistis .two .ide h4{
+    font-size: 16px;
+    padding-top: 10px;
+}
+.tistis .two .ide span{
+    font-size: 14px;
+}
+.sub{
+    background: #58587A;
+    color: #fff;
+}
+
+.sub p{
+    width: 88%;
+}
+.sub button{
+    width: 40%;
+}
+
+footer{
+    background-color: #0C093E;
+}
+footer .ul-3 li{
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+@media (max-width:767px) {
+    nav .my-nav ul{
+        line-height: 45px;
+    }
+    nav .my-nav ul li{
+        font-size: 16px;
+    }
+
+    header .one p{
+        margin: auto;
+    }
+    header .one,
+    .sub,
+    .tistis .two{
+        text-align: center;
+    }
+    header form input,
+    .sub input {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .my-btn{
+        width: 90% !important;
+        margin-left: auto !important;
+    }
+    .tistis .two h2{
+        font-size: 25px;
+    }
+    .tistis .two .men {
+        margin: auto;
+        text-align: left;
+    }
+    .tistis .two p{
+        text-align: left;
+    }
+}
